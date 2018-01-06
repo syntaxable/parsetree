@@ -9,6 +9,9 @@ Available for the following languages:
 Language|Package|Available Selectors
 :---|:---|:---
 JavaScript|[parsetree-js](https://github.com/syntaxable/parsetree-js)|[glossary](https://github.com/syntaxable/parsetree-js/blob/master/GLOSSARY.md)
+HTML||
+CSS||
+...||
 
 ## Specification and Standards
 
