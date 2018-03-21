@@ -11,7 +11,8 @@ console.log($.generate());
 ```
 
 ## Parsing
-    A wrapped tree can only be created with `new ParseTree(code)`
+    A wrapped tree can be created with `new ParseTree(code)`,
+        or an existing tree can be replaced with `$.parse(code)`
     If `code` is a String it will be parsed
     If `code` is an Object that matches the accepted format it will be used as the raw tree
     If `code` is an Object that does not match the accepted format it will be adapted for use if possible
@@ -29,9 +30,9 @@ console.log($.generate());
     children
     closest
     concat
-    eq (maybe this should be `at`?)
     find
     first
+    index
     last
     next
     parent
